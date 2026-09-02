@@ -45,6 +45,16 @@ const categories: (Accent & { icon: string; name: string; sub: string })[] = [
 ];
 
 const products: (Accent & { icon: string; name: string; pkg: string; price: string })[] = [
+<<<<<<< HEAD
+  { icon: "fa-fire", name: "Free Fire 100 เพชร", pkg: "เติมเงินโดยตรงผ่าน PlayetID", price: "$1.79", accent: "#4f46e5", accentSoft: "#eef0fe" },
+  { icon: "fa-chess-knight", name: "RoV 300 คูปอง", pkg: "ซื้อฮีโร่และสกิน", price: "$5.39", accent: "#9333ea", accentSoft: "#f3e8ff" },
+  { icon: "fa-parachute-box", name: "PUBG Mobile 60 UC", pkg: "เติมเงินโดยตรงผ่าน Player ID", price: "$1.05", accent: "#2563eb", accentSoft: "#dbeafe" },
+  { icon: "fa-wand-magic-sparkles", name: "Genshin Impact 60 Genesis Crystals", pkg: "เติมเงินผ่าน UID", price: "$1.05", accent: "#db2777", accentSoft: "#fce7f3" },
+  { icon: "fa-hand-fist", name: "Mobile Legends 50 เพชร", pkg: "เติมเงินโดยตรงผ่าน Player ID", price: "$0.89", accent: "#d97706", accentSoft: "#fef3c7" },
+  { icon: "fa-crosshairs", name: "Valorant 475 Points", pkg: "เติมเงินผ่าน RiotID", price: "$4.79", accent: "#0891b2", accentSoft: "#cffafe" },
+  { icon: "fa-cube", name: "Roblox 400 Robux", pkg: "เติมเงินผ่านชื่อบัญชี Roblox", price: "$4.49", accent: "#16a34a", accentSoft: "#dcfce7" },
+  { icon: "fa-wallet", name: "บัตรเติมเงินมือถือ ราคา 9 บาท", pkg: "ใช้งานได้กับทุกเครือข่าย", price: "$9.00", accent: "#475569", accentSoft: "#e2e8f0" },
+=======
   { icon: "fa-fire", name: "Free Fire 100 Diamonds", pkg: "Top up directly via player ID", price: "$1.79", accent: "#4f46e5", accentSoft: "#eef0fe" },
   { icon: "fa-chess-knight", name: "RoV 300 Coupons", pkg: "Buy heroes and skins", price: "$5.39", accent: "#9333ea", accentSoft: "#f3e8ff" },
   { icon: "fa-parachute-box", name: "PUBG Mobile 60 UC", pkg: "Top up directly via player ID", price: "$1.05", accent: "#2563eb", accentSoft: "#dbeafe" },
@@ -53,6 +63,7 @@ const products: (Accent & { icon: string; name: string; pkg: string; price: stri
   { icon: "fa-crosshairs", name: "Valorant 475 Points", pkg: "Top up via Riot ID", price: "$4.79", accent: "#0891b2", accentSoft: "#cffafe" },
   { icon: "fa-cube", name: "Roblox 400 Robux", pkg: "Top up via username", price: "$4.49", accent: "#16a34a", accentSoft: "#dcfce7" },
   { icon: "fa-wallet", name: "$9 Mobile Top-up Card", pkg: "Works with any carrier", price: "$9.00", accent: "#475569", accentSoft: "#e2e8f0" },
+>>>>>>> upstream/master
 ];
 
 const promotions: (Accent & { icon: string; title: string; desc: string; cta: string })[] = [
@@ -270,6 +281,17 @@ export default function Home() {
             <div className="flex gap-8">
               <div>
                 <b className={`${kanit} block text-xl font-bold text-indigo-600`}>100M+</b>
+<<<<<<< HEAD
+                <span className="text-xs text-[#9aa1ac]">ลูกค้าที่ใช้บริการ</span>
+              </div>
+              <div>
+                <b className={`${kanit} block text-xl font-bold text-indigo-600`}>20+</b>
+                <span className="text-xs text-[#9aa1ac]">เกมที่รองรับ</span>
+              </div>
+              <div>
+                <b className={`${kanit} block text-xl font-bold text-indigo-600`}>10 sec</b>
+                <span className="text-xs text-[#9aa1ac]">เฉลี่ยเวลาในการเติมเงิน</span>
+=======
                 <span className="text-xs text-[#9aa1ac]">Customers served</span>
               </div>
               <div>
@@ -279,6 +301,7 @@ export default function Home() {
               <div>
                 <b className={`${kanit} block text-xl font-bold text-indigo-600`}>10 sec</b>
                 <span className="text-xs text-[#9aa1ac]">Average top-up time</span>
+>>>>>>> upstream/master
               </div>
             </div>
           </div>
@@ -318,7 +341,11 @@ export default function Home() {
               <i className="fa-solid fa-arrow-trend-up text-[14px] text-green-600" />
               <div>
                 <b className={`${kanit} block text-[13px] font-bold`}>2,481 orders</b>
+<<<<<<< HEAD
+                <span className="text-[10px] text-[#9aa1ac]">Completed Today</span>
+=======
                 <span className="text-[10px] text-[#9aa1ac]">completed today</span>
+>>>>>>> upstream/master
               </div>
             </div>
           </div>
@@ -328,8 +355,13 @@ export default function Home() {
       {/* ---------------- Categories ---------------- */}
       <section id="categories" className="scroll-mt-[88px] px-5 py-14 sm:px-12">
         <div className="mx-auto mb-10 max-w-[560px] text-center">
+<<<<<<< HEAD
+          <h2 className={`${heading} mb-2 text-[22px] sm:text-[28px]`}>หมวดหมู่เกมยอดนิยม</h2>
+          <p className="text-sm leading-relaxed text-[#6b7280]">เลือกเติมเงินเกมที่ต้องการได้ทันที ครอบคลุมทุกค่ายเกมชั้นนำของโลก</p>
+=======
           <h2 className={`${heading} mb-2 text-[22px] sm:text-[28px]`}>Popular Game Categories</h2>
           <p className="text-sm leading-relaxed text-[#6b7280]">Pick the game you want to top up, instantly — every major publisher covered</p>
+>>>>>>> upstream/master
         </div>
         <div className="mx-auto grid max-w-[1180px] grid-cols-2 gap-3.5 sm:grid-cols-3 md:grid-cols-6">
           {categories.map((c) => (
@@ -341,8 +373,13 @@ export default function Home() {
       {/* ---------------- Products ---------------- */}
       <section id="products" className="scroll-mt-[88px] px-5 py-14 sm:px-12">
         <div className="mx-auto mb-10 max-w-[560px] text-center">
+<<<<<<< HEAD
+          <h2 className={`${heading} mb-2 text-[22px] sm:text-[28px]`}>สินค้าขายดี</h2>
+          <p className="text-sm leading-relaxed text-[#6b7280]">แพ็กเกจเติมเงินที่ลูกค้าของเราเลือกใช้มากที่สุด!</p>
+=======
           <h2 className={`${heading} mb-2 text-[22px] sm:text-[28px]`}>Best Sellers</h2>
           <p className="text-sm leading-relaxed text-[#6b7280]">The top-up packages our customers reach for most</p>
+>>>>>>> upstream/master
         </div>
         <div className="mx-auto grid max-w-[1180px] grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
           {products.map((p) => (
@@ -354,8 +391,13 @@ export default function Home() {
       {/* ---------------- Promotions ---------------- */}
       <section id="promotions" className="scroll-mt-[88px] px-5 py-14 sm:px-12">
         <div className="mx-auto mb-10 max-w-[560px] text-center">
+<<<<<<< HEAD
+          <h2 className={`${heading} mb-2 text-[22px] sm:text-[28px]`}>โปรโมชั่นพิเศษ</h2>
+          <p className="text-sm leading-relaxed text-[#6b7280]">อัปเดตทุกสัปดาห์ — เติมเงินคุ้มค่ายิ่งขึ้น</p>
+=======
           <h2 className={`${heading} mb-2 text-[22px] sm:text-[28px]`}>Special Promotions</h2>
           <p className="text-sm leading-relaxed text-[#6b7280]">Updated every week — better value on every top-up</p>
+>>>>>>> upstream/master
         </div>
         <div className="mx-auto grid max-w-[1180px] gap-[18px] md:grid-cols-3">
           {promotions.map((p) => (
@@ -367,8 +409,13 @@ export default function Home() {
       {/* ---------------- Why us ---------------- */}
       <section className="px-5 py-14 sm:px-12">
         <div className="mx-auto mb-10 max-w-[560px] text-center">
+<<<<<<< HEAD
+          <h2 className={`${heading} mb-2 text-[22px] sm:text-[28px]`}>ทำไมต้องเติมเงินกับเรา ?</h2>
+          <p className="text-sm leading-relaxed text-[#6b7280]">ทุกรายละเอียดได้รับการออกแบบโดยคำนึงถึงความอุ่นใจของลูกค้าเป็นสำคัญ</p>
+=======
           <h2 className={`${heading} mb-2 text-[22px] sm:text-[28px]`}>Why Top Up With Us</h2>
           <p className="text-sm leading-relaxed text-[#6b7280]">Every detail is designed with your peace of mind in mind</p>
+>>>>>>> upstream/master
         </div>
         <div className="mx-auto grid max-w-[1180px] gap-8 md:grid-cols-3 md:gap-[22px]">
           {whyUs.map((w) => (
@@ -380,8 +427,13 @@ export default function Home() {
       {/* ---------------- Reviews ---------------- */}
       <section className="px-5 py-14 sm:px-12">
         <div className="mx-auto mb-10 max-w-[560px] text-center">
+<<<<<<< HEAD
+          <h2 className={`${heading} mb-2 text-[22px] sm:text-[28px]`}>ความคิดเห็นจากลูกค้า</h2>
+          <p className="text-sm leading-relaxed text-[#6b7280]">ความคิดเห็นจากลูกค้าจริงของ Super Stนre</p>
+=======
           <h2 className={`${heading} mb-2 text-[22px] sm:text-[28px]`}>What Customers Say</h2>
           <p className="text-sm leading-relaxed text-[#6b7280]">Real feedback from Super Stire customers</p>
+>>>>>>> upstream/master
         </div>
         <div className="mx-auto grid max-w-[1180px] gap-[18px] md:grid-cols-3">
           {reviews.map((r) => (
@@ -415,7 +467,11 @@ export default function Home() {
               </div>
             </div>
             <p className="my-[13px] max-w-[250px] text-[12.5px] leading-[1.7] text-[#6b7280]">
+<<<<<<< HEAD
+              ร้านเติมเงินเกมออนไลน์ที่รวดเร็วและปลอดภัยที่สุดในประเทศไทย เปิดให้บริการตลอด 24 ชั่วโมงทุกวัน
+=======
               The fastest, safest online game top-up store in Thailand. Open 24/7, every day.
+>>>>>>> upstream/master
             </p>
             <div className="flex gap-2.5">
               {[
@@ -437,7 +493,11 @@ export default function Home() {
           </div>
 
           <div>
+<<<<<<< HEAD
+            <h4 className={`${kanit} mb-[15px] text-sm font-semibold`}>ลิ้งค์ด่วน</h4>
+=======
             <h4 className={`${kanit} mb-[15px] text-sm font-semibold`}>Quick Links</h4>
+>>>>>>> upstream/master
             {navLinks.map((l) => (
               <a key={l.href} href={l.href} className="mb-2.5 block text-[13px] text-[#6b7280] hover:text-indigo-600">
                 {l.label}
@@ -446,7 +506,11 @@ export default function Home() {
           </div>
 
           <div>
+<<<<<<< HEAD
+            <h4 className={`${kanit} mb-[15px] text-sm font-semibold`}>หมวดหมู่เกมยอดนิยม</h4>
+=======
             <h4 className={`${kanit} mb-[15px] text-sm font-semibold`}>Popular Categories</h4>
+>>>>>>> upstream/master
             {["Free Fire", "RoV", "PUBG Mobile", "Valorant"].map((g) => (
               <a key={g} href="#products" className="mb-2.5 block text-[13px] text-[#6b7280] hover:text-indigo-600">
                 {g}
@@ -455,7 +519,11 @@ export default function Home() {
           </div>
 
           <div>
+<<<<<<< HEAD
+            <h4 className={`${kanit} mb-[15px] text-sm font-semibold`}>ติดต่อเรา</h4>
+=======
             <h4 className={`${kanit} mb-[15px] text-sm font-semibold`}>Contact Us</h4>
+>>>>>>> upstream/master
             <span className="mb-2.5 block text-[13px] text-[#6b7280]">
               <i className="fa-solid fa-envelope mr-2 w-[15px] text-[#9aa1ac]" />support@superstore.co
             </span>
@@ -473,7 +541,11 @@ export default function Home() {
 
         <div className="mx-auto mt-[38px] flex max-w-[1180px] flex-wrap justify-between gap-2 border-t border-[#e7e9ee] pt-5 text-[11.5px] text-[#9aa1ac]">
           <span>© 2026 Super Store. All rights reserved.</span>
+<<<<<<< HEAD
+          <span>เกมและเครื่องหมายการค้าทั้งหมดเป็นทรัพย์สินของเจ้าของแต่ละราย</span>
+=======
           <span>All games and trademarks are the property of their respective owners.</span>
+>>>>>>> upstream/master
         </div>
       </footer>
     </div>
